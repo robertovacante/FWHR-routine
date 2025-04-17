@@ -1,5 +1,5 @@
 # fWHR-routine
-This repository contains all the code needed to automatically calculate the Facial-Width-Height ratio based on some images using the `face_recognition` (**See: https://github.com/ageitgey/face_recognition**) package, used for a Political Economy project involving U.S. politicians.
+This repository contains all the code needed to automatically calculate the Facial-Width-Height ratio based on many images using the `face_recognition` (**See: https://github.com/ageitgey/face_recognition**) package, used for a Political Economy project involving U.S. politicians.
 
 ## Imports
 ```s
