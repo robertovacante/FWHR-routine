@@ -167,13 +167,6 @@ get_fwhr(rep1, url=False, top = 'eyebrow', show=True)
 ## Routine to get fWHR through each directory
 
 ```s
-total_files = 0
-for directory in directories:
-    for filename in os.listdir(directory):
-        if filename.endswith('.jpeg') or filename.endswith('.jpg'):
-            total_files += 1
-processed_files = 0
-
 directories = [
     'user/directory1_to_the_images',
     'user/directory2_to_the_images',
@@ -181,6 +174,14 @@ directories = [
     'user/directory4_to_the_images',
 ]
 results = []
+
+total_files = 0
+for directory in directories:
+    for filename in os.listdir(directory):
+        if filename.endswith('.jpeg') or filename.endswith('.jpg'):
+            total_files += 1
+processed_files = 0
+
 for directory in directories:
     for filename in os.listdir(directory):
         if filename.endswith('.jpeg') or filename.endswith('.jpg'):
